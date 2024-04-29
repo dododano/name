@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Merriweather, serif;   
+}
+
+h1 {
+    font-family: "Sacremento", cursive;
+    color: red;
+    font-size: 40px;
+}
+h2 {
+    font-family: "Montserrat", serrif;
+    color: orange;
+    font-size: 40px;
+}
+.topcontainer {
+    background-color: rebeccapurple;
+    position: relative;
+}   
+.cloud {
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
+
+.midcontainer {
+    margin: 100px,0;
+    color: azure;
+}
+
+.cloud {
+    left: 20;
+    top: 0; 
+}
+p {
+    color: blue;
+}
+.rowcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
